@@ -20,7 +20,7 @@ public class DisplayQueryResults extends JFrame {
     // Database credentials (update as needed)
     private static final String URL = "jdbc:mysql://localhost:3306/books";
     private static final String USER = "root";
-    private static final String PASSWORD = "1495";  // Replace with your MySQL password
+    private static final String PASSWORD = "**********";  // Replace with your MySQL password
 
     public DisplayQueryResults() {
         setTitle("Display Query Results");
@@ -107,3 +107,4 @@ public class DisplayQueryResults extends JFrame {
         app.setVisible(true);
     }
 }
+
